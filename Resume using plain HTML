@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title> Snigdh's Resume</title>
+    </head>
+    <body <!--bgcolor="#62ea34"-->>
+        <div id="photo" align="center">
+            <div align="right">
+            <a href="pageinfo.html" target="_blank">About Page</a>
+            </div>
+            <!--https://code.sololearn.com/Icons/Avatars/0.jpg-->
+            <img src="profile_photo.png" alt="Profile Photo"  width="23%" height="45%">
+        </div>
+        <nav id="navigation">
+            <table  border="2px" align="center">
+                <tr>
+                    <!-- ADD HYPER-LINKS HERE. -->
+                    <td><button><a href="#about"><bold><big>About Me</big></bold></a></button></td>
+                    <td><button><a href="#skills"><bold><big>My Skills & Trainings</big></bold></a></button></td>
+                    <td><button><a href="#myedu"><bold><big>My education</big></bold></a></button></td>
+                    <td><button><a href="#"><bold><big>Extra-curriculum activities</big></bold></a></button></td>
+                    <td><button><a href="#"><bold><big>My Portfolio Link</big></bold></a></button></td>
+                    <td><button><a href="#"><bold><big>Contact Me</big></bold></a></button></td>
+                    <td><button><a href="#"><bold><big>Follow Me</big></bold></a></button></td>
+                </tr>
+            </table>
+            </nav>
+            <!--About Me section of page.-->
+                <div align="center" id="about">
+                <h1><span>About Me</span></h1>
+                <p>Hi, I am <i><b><bold>Snigdh Shourya</bold></b></i>, and I am currently
+                in my B-tech pre-final year. I am doing my B-tech from <a href="http://www.tezu.ernet.in/dcompsc/" target="_blank"><bold><i>Department of Computer Science and Engineering</i></bold></a>,
+                <a href="http://www.tezu.ernet.in/" target="_blank">Tezpur University</a>. For me coding isn't a part of my acedemic curriculum, rather I think of it as way to practice <i>problem solving skills</i>
+                Using my coding skills, I can develop front-end portion of web-pages.I believe in expanding my knowledge, and mastering it with practice.
+                </p>
+                </div>
+                
+            <!--My skills section of page-->
+                <div align='center' id="skills">
+                <h1><span>My Skills & Trainings</span></h1>
+                <table>
+                    <tr>
+                        <td>
+                       <ul>
+                           <li><a href="https://www.sololearn.com/Certificate/1014-9495004/pdf/" target="_blank">HTML</a></li>
+                       </ul>
+                       </td>
+                       <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1023-9495004/pdf/" target="_blank">CSS</a></li>
+                           </ul>
+                       </td>
+                          <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1024-9495004/pdf/" target="_blank">JavaScript</a></li>
+                           </ul>
+                       </td>
+                    </tr>
+                    <tr>
+                           <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1059-9495004/pdf/" target="_blank">PHP</a></li>
+                           </ul>
+                       </td>
+                          <td>
+                           <ul>
+                               <a href="https://www.sololearn.com/Certificate/1060-9495004/pdf/" target="_blank"><li>SQL</li></a>
+                           </ul>
+                       </td>
+                           <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1082-9495004/pdf/" target="_blank">JQuery</a></li>
+                           </ul>
+                       </td>
+                       </tr>
+                       <tr>
+                          <td>
+                           <ul>
+                               <li><a href="" target="_blank">Bootstrap</a></li>
+                           </ul>
+                       </td>
+                          <td>
+                           <ul>
+                               <li>MATLAB</li>
+                           </ul>
+                       </td>
+                          <td>
+                           <ul>
+                               <li>R</li>
+                           </ul>
+                       </td>
+                    </tr>
+                    <tr>
+                           <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1089-9495004/pdf/" target="_blank">C</a></li>
+                           </ul>
+                       </td>   
+                       <td>
+                           <ul>
+                               <li><a href="https://www.sololearn.com/Certificate/1051-9495004/pdf/" target="_blank">C++</a></li>
+                           </ul>
+                       </td>
+                       <td>
+                            <ul>
+                                <li><a href="" target="_blank">IoT(NPTEL)</li>
+                            </ul>
+                       </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li><a href="" target="_blank">Cryptography and Network Security (NPTEL)</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul>
+                          <li><a href="" target="_blank">Data Science for Engineers (NPTEL)</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul>
+                          <li><a href="" target="_blank">The Complete Web-Development Bootcamp (UDEMY) </li>
+                        </ul>
+                      </td>
+                    </tr>
+                </table>
+                </div>
+        <!--My Education section of page.-->
+        <div id="myedu" align="center">
+            <h1><span>My Education</span></h1>
+            <tr>
+            <h3>Bachelor of Technology (B.Tech), Computer Science and Engineering (2017-2021),<font color="blue"> Tezpur University</font></h3>
+            <!--Add CGPA(embarassment) here-->
+            </tr>
+            <tr>
+                <p><h3>XII(Senior Secondary),Science(2014-2016), <font color="blue">DAV Hehal</p></h3>     
+            </tr>
+        </div>
+
+        <!-- Go up module -->
+        <div align="center">
+        <button><a href="#photo">Goto top</a></button>
+      </div>
+    </body>
+</html>
