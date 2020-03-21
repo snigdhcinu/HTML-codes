@@ -7,7 +7,7 @@
         <form action="URL-GOES-HERE" method="POST">
             <div align="center">
             <input type="name" placeholder="Name" required autocomplete><br><br>
-            <input type="email" placeholder="email@gmail.com" required autocomplete><br><br>
+            <input type="email" placeholder="email@gmail.com" required autocomplete multiple><br><br>
             <input type="number" placeholder="Enter your phone no." maxlength="10" required autocomplete><br><br>
             <textarea placeholder="Write the comment or your queries here." required autocomplete></textarea><br><br>
             Insert file<br><input type="file" required autocomplete multiple><br>
