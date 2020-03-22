@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 align="center">WAP a program to generate random values for (a,b,c,....w,x) in the equation:- </h1>
+	<h3 align="center">[(a*y1)+(b*y2)+....+(v*y23)+(w*y24)-CONSTVAL]=0</h3>
+<!-- <hr align="center" width="800ox"> -->
+<!--<article style="text-align: center;">-->
+<!-- <div align="center" width="800px" style="vertical-align: top;"> -->
+<div align="center">
+<script>
+	
+const y=[0,0.89608802455664,-0.083381608939051,0.24686007793153,0,0.067658648473815,-0.21072103131565,0,0.048790164169432,0.13976194237516,0.17395330712344,0.13976194237516,0,0.095310179804325,0.086177696241052,0,0.086177696241052,-0.072570692834835,0,0.22020940501452,0.17980808272355,0.25084337466372,0.14606631905197,0.34629704820832,4.4841028037230];
+				const CONSTVAL=5.94017125272043;
+
+			var a=Math.random();
+			var b=Math.random();
+			var c=Math.random();
+			var d=Math.random();
+			var e=Math.random();
+			var f=Math.random();
+			var g=Math.random();
+			var h=Math.random();
+			var i=Math.random();
+			var j=Math.random();
+			var k=Math.random();
+			var l=Math.random();
+			var m=Math.random();
+			var n=Math.random();
+			var o=Math.random();
+			var p=Math.random();
+			var q=Math.random();
+			var r=Math.random();
+			var s=Math.random();
+			var t=Math.random();
+			var u=Math.random();
+			var v=Math.random();
+			var w=Math.random();
+			document.write("<h3>The given equation is :- </h3><br>");
+			document.write('<h3>('+a+'*'+y[0]+')+('+b+'*'+y[1]+')+('+c+'*'+y[2]+')+('+d+'*'+y[3]+')+('+e+'*'+y[4]+')+('+f+'*'+y[5]+')+('+g+'*'+y[6]+')+('+h+'*'+y[7]+')+('+i+'*'+y[8]+')+('+j+'*'+y[9]+')+('+k+'*'+y[10]+')+('+l+'*'+y[11]+')+('+m+'*'+y[12]+')+('+n+'*'+y[13]+')+('+o+'*'+y[14]+')+('+p+'*'+y[15]+')+('+q+'*'+y[16]+')+('+r+'*'+y[17]+')+('+s+'*'+y[18]+')+('+t+'*'+y[19]+')+('+u+'*'+y[20]+')+('+v+'*'+y[21]+')+('+w+'*'+y[22]+')-'+CONSTVAL+' =0</h3>');
+
+
+
+</script>
+</div>
+</body>
+</html>
