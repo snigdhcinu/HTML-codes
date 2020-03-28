@@ -1,26 +1,68 @@
 <html>
     <head>
         <title> Snigdh's esume</title>
+        <style>
+        	body{
+        		font-family: Comic Sans MS;
+        		background-color: skyblue;
+        	}
+        	#navigation #links a{
+        		text-decoration: none;
+        		color: purple;
+        	}
+        	#navigation #links button{
+        		background-color: orange;
+        		font-weight: bolder;
+        		color: purple;
+        		font-family: sans-serif;
+        	}
+        	#navigation table{
+        		border-collapse: collapse;
+
+        	}
+        	#photo img{
+        		border-radius: 50%;
+        	}
+        	#skills a{
+        		text-decoration: none;
+        		color: yellow;
+        		font-weight: bold;
+        		font-family: Comic Sans MS;
+        	}
+        	#portfolio a{
+        		text-decoration: none;
+        		color: orange;
+        	}
+        	#goto a{
+        		text-decoration: none;
+        	}
+        	#goto button{
+        		background-color: lightblue;
+        		font-family: sans-serif;
+        		font-weight: bolder;
+        		
+        	}
+        </style>
     </head>
     <body>
         <div id="photo" align="center">
             <div align="right">
-            <a href="pageinfo.html" target="_blank">About Page</a>
+            <a href="pageinfo.html" target="_blank" style="text-decoration: none;color: black">About Page</a>
             </div>
             <!--https://code.sololearn.com/Icons/Avatars/0.jpg-->
             <img src="profile_photo.png" alt="Profile Photo"  width="23%" height="45%">
         </div>
         <nav id="navigation">
             <table  border="2px" align="center">
-                <tr>
+                <tr id="links">
                     <!-- ADD HYPER-LINKS HERE. -->
-                    <td><button><a href="#about"><bold><big>About Me</big></bold></a></button></td>
-                    <td><button><a href="#skills"><bold><big>My Skills & Trainings</big></bold></a></button></td>
-                    <td><button><a href="#myedu"><bold><big>My education</big></bold></a></button></td>
-                    <td><button><a href="#photogallery"><bold><big>Photo Gallery</big></bold></a></button></td>
-                    <td><button><a href="#portfolio"><bold><big>My Portfolio</big></bold></a></button></td>
-                    <td><button><a href="#contactme"><bold><big>Contact Me</big></bold></a></button></td>
-                    <td><button><a href="#sociallink"><bold><big>Follow Me</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#about"><bold><big>About Me</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#skills"><bold><big>My Skills & Trainings</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#myedu"><bold><big>My education</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#photogallery"><bold><big>Photo Gallery</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#portfolio"><bold><big>My Portfolio</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#contactme"><bold><big>Contact Me</big></bold></a></button></td>
+                    <td bgcolor="orange"><button><a href="#sociallink"><bold><big>Follow Me</big></bold></a></button></td>
                 </tr>
             </table>
         </nav>
@@ -83,12 +125,12 @@
                        </td>
                           <td>
                            <ul>
-                               <li>MATLAB</li>
+                               <li><a href="" target="_blank">MATLAB</a></li>
                            </ul>
                        </td>
                           <td>
                            <ul>
-                               <li>R</li>
+                               <li><a href="" target="_blank">R</a></li>
                            </ul>
                        </td>
                     </tr>
@@ -192,7 +234,7 @@
 
         <!-- Go up module -->
         
-<div align="center">
+<div align="center" id="goto">
         <button><a href="#photo">Goto top</a></button>
       </div>
     </body>
